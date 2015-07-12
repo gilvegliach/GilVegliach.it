@@ -14,9 +14,9 @@
     <div id="content">	
         <h1>Publications of Gil Vegliach</h1>
         <ol>
-            <li>Andreas Bauer, Jan-Christoph Küster, and Gil Vegliach.<br>
-                <b>The ins and outs of first-order runtime verification.</b><br>
-                (to appear in) <i>Formal Methods in System Design, 2015</i><br>
+            <li>Andreas Bauer, Jan-Christoph Küster, and Gil Vegliach.<br/>
+                <b>The ins and outs of first-order runtime verification.</b><br/>
+                (to appear in) <i>Formal Methods in System Design, 2015</i><br/>
             	[<a href="pdf/fmsd15.pdf">pdf</a>]
                 <p></p>
             </li>	
