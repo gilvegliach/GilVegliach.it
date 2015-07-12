@@ -2,28 +2,28 @@
 <html>
 <head>
 
-<title>Gil's personal website</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gil's personal website</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
-<link href='styles/main.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
+    <link href='styles/main.css' rel='stylesheet' type='text/css'>
     
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-2526228-1']);
-  _gaq.push(['_trackPageview']);
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-2526228-1']);
+      _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-</script>
-<script type="text/javascript">
-_uacct = "UA-2526228-1";
-urchinTracker();
-</script>
+    </script>
+    <script type="text/javascript">
+    _uacct = "UA-2526228-1";
+    urchinTracker();
+    </script>
 </head>
 <body>
     <?php include("common/top.php") ?>
