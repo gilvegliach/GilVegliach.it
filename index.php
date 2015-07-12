@@ -65,9 +65,9 @@ urchinTracker();
         <div id="portraits">
             <span class="section_title">Portraits</span><br />
                 
-            <a href = "/images/portraits/veronica_portrait.jpg">
+            <!--a href = "/images/portraits/veronica_portrait.jpg">
                 <img src="/images/portraits/veronica_portrait_small.jpg" alt="Veronica's portrait"/>
-            </a>            
+            </a-->            
             <a href = "/images/portraits/model_portrait.jpg">
                 <img src="/images/portraits/model_portrait.jpg" alt="Portrait of a model"/>
             </a>
