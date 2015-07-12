@@ -14,14 +14,14 @@
     <div id="content">	
         <h1>Publications of Gil Vegliach</h1>
         <ol>
-            <li>Andreas Bauer, Jan-Christoph Küster, and Gil Vegliach.<br/>
+            <li>Andreas Bauer, Jan-Christoph K&uuml;ster, and Gil Vegliach.<br/>
                 <b>The ins and outs of first-order runtime verification.</b><br/>
                 (to appear in) <i>Formal Methods in System Design, 2015</i><br/>
             	[<a href="pdf/fmsd15.pdf">pdf</a>]
                 <p></p>
             </li>	
 	
-            <li>Andreas Bauer, Jan-Christoph Küster, and Gil Vegliach.<br/>
+            <li>Andreas Bauer, Jan-Christoph K&uuml;ster, and Gil Vegliach.<br/>
                 <b>From propositional to first-order monitoring.</b><br/>
                 <i>Proc. 4th International Conference on Runtime Verification</i> (RV),<br/>
                 volume 8174 of <i>LNCS</i>. Springer, Sep. 2013.<br/>
@@ -30,7 +30,7 @@
                 <p></p>
             </li>
 
-            <li>Andreas Bauer, Jan-Christoph Küster, and Gil Vegliach.<br/>
+            <li>Andreas Bauer, Jan-Christoph K&uuml;ster, and Gil Vegliach.<br/>
                 <b>Runtime Verification meets Android Security.</b><br/>
                 <i>Proc. 4th NASA Formal Methods Symposium</i> (NFM),<br/>
                     volume 7226 of <i>LNCS</i>. Springer, Apr. 2012.<br/>
