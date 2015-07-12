@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <title>Gil's personal website</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -26,8 +25,7 @@
     </script>
 </head>
 <body>
-    <?php include("common/top.php") ?>
-    
+    <?php include("common/top.php") ?>   
     <div id="content">
         <div id="videos">
             <span class="section_title">Piano videos</span><br />
