@@ -1,0 +1,32 @@
+@inproceedings{DBLP:conf/dasfaa/NuttRV12,
+  author    = {Werner Nutt and
+               Simon Razniewski and
+               Gil Vegliach},
+  title     = {Incomplete Databases: Missing Records and Missing Values},
+  booktitle = {DASFAA Workshops},
+  year      = {2012},
+  pages     = {298-310},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-29023-7_30},
+  crossref  = {DBLP:conf/dasfaa/2012w},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/dasfaa/2012w,
+  editor    = {Hwanjo Yu and
+               Ge Yu and
+               Wynne Hsu and
+               Yang-Sae Moon and
+               Rainer Unland and
+               Jaesoo Yoo},
+  title     = {Database Systems for Advanced Applications - 17th International
+               Conference, DASFAA 2012, International Workshops: FlashDB,
+               ITEMS, SNSM, SIM3, DQDI, Busan, South Korea, April 15-19,
+               2012. Proceedings},
+  booktitle = {DASFAA Workshops},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7240},
+  year      = {2012},
+  isbn      = {978-3-642-29022-0},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-29023-7},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}

@@ -1,0 +1,100 @@
+body {
+   text-align:center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    height: 196px;
+    line-height: 196px;
+    text-align: left;
+    background-color:#56c3dd;
+    font-size:112px;
+    font-weight: 300;
+    padding: 0 0 0 30;
+}
+
+.header_text {
+    color: white;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+nav {
+    height:48px;
+    line-height: 48px;
+    background-color:#555;
+    border-top: solid white 1px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+nav a {
+    color: white;
+    margin-left: 16px;
+}
+
+.mail_me {
+    color: #ffcc33;
+}
+
+.publications {
+    color: red;
+}
+
+#badges {
+    float: right;
+}
+
+#content {
+    margin: 0 auto;
+    text-align: left;
+    width:912px;
+}
+
+.section_title {
+    font-size: 22px;
+    line-height:180%;
+    margin: 13px;
+}
+
+#portraits {
+    text-align:center;
+    float:right; 
+    width: 20%;
+}
+
+#portraits img {
+    width: 100%;
+}
+
+#videos {
+    width: 70%;
+    display: inline-block;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; // 16:9
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

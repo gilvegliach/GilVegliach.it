@@ -1,0 +1,26 @@
+@inproceedings{DBLP:conf/rv/0002KV13,
+  author    = {Andreas Bauer and
+               Jan-Christoph K{\"u}ster and
+               Gil Vegliach},
+  title     = {From Propositional to First-Order Monitoring},
+  booktitle = {RV},
+  year      = {2013},
+  pages     = {59-75},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-40787-1_4},
+  crossref  = {DBLP:conf/rv/2013},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/rv/2013,
+  editor    = {Axel Legay and
+               Saddek Bensalem},
+  title     = {Runtime Verification - 4th International Conference, RV
+               2013, Rennes, France, September 24-27, 2013. Proceedings},
+  booktitle = {RV},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8174},
+  year      = {2013},
+  isbn      = {978-3-642-40786-4},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-40787-1},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
