@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
