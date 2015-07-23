@@ -35,27 +35,27 @@
                 </iframe>
             </div>
             <div class="video-wrapper"> 
-                <iframe src="http://www.youtube.com/v/CMci8RImXTs" allowfullscreen>
+                <iframe src="http://www.youtube.com/embed/CMci8RImXTs" allowfullscreen>
                 </iframe>
             </div>
             <div class="video-wrapper"> 
-                <iframe src="http://www.youtube.com/v/XQ__hWY5ZT8" allowfullscreen>
+                <iframe src="http://www.youtube.com/embed/XQ__hWY5ZT8" allowfullscreen>
                 </iframe>
             </div>
             <div class="video-wrapper"> 
-                <iframe src="http://www.youtube.com/v/Lre9Ero4X9Y" allowfullscreen>
+                <iframe src="http://www.youtube.com/embed/Lre9Ero4X9Y" allowfullscreen>
                 </iframe>
             </div>
             <div class="video-wrapper"> 
-                <iframe src="http://www.youtube.com/v/ewHLqni2PTk" allowfullscreen>
+                <iframe src="http://www.youtube.com/embed/ewHLqni2PTk" allowfullscreen>
                 </iframe>
             </div>
             <div class="video-wrapper"> 
-                <iframe src="http://www.youtube.com/v/IItEwNHCh3o" allowfullscreen>
+                <iframe src="http://www.youtube.com/embed/IItEwNHCh3o" allowfullscreen>
                 </iframe>
             </div>
             <div class="video-wrapper"> 
-                <iframe src="http://www.youtube.com/v/kwoPOw84DSk" allowfullscreen>
+                <iframe src="http://www.youtube.com/embed/kwoPOw84DSk" allowfullscreen>
                 </iframe>
             </div>      
         </div>
