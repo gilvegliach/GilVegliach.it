@@ -11,7 +11,7 @@
     <?php include("common/top.php") ?>   
     <div id="content">
         <div id="videos">
-            <span class="section_title">Piano videos</span><br />
+            <h1>Piano videos</h1>
             
             <div class="video-wrapper"> 
                 <iframe src="https://www.youtube.com/embed/PCRqjFw0xX8" allowfullscreen>
@@ -44,7 +44,7 @@
         </div>
         
         <div id="portraits">
-            <span class="section_title">Portraits</span><br />
+            <h1>Portraits</h1>
                 
             <!--a href = "/images/portraits/veronica_portrait.jpg">
                 <img src="/images/portraits/veronica_portrait_small.jpg" alt="Veronica's portrait"/>
