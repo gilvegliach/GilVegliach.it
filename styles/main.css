@@ -9,6 +9,10 @@ code {
     font-family: 'Roboto Mono';
 }
 
+body a {
+	color: #2d9fc9;
+}
+
 a:link {
     text-decoration: none;
 }
