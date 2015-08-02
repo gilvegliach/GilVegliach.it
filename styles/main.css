@@ -17,7 +17,7 @@ a:hover {
     height: 196px;
     line-height: 196px;
     text-align: left;
-    background-color:#56c3dd;
+    background-color:#303030;
     font-size:112px;
     font-weight: 300;
     padding: 0 0 0 30px;
@@ -34,7 +34,7 @@ a:hover {
 nav {
     height:48px;
     line-height: 48px;
-    background-color:#555;
+    background-color:#4c4c4c;
     border-top: solid white 1px;
     font-size: 24px;
     font-weight: 300;
@@ -50,7 +50,7 @@ nav a {
 }
 
 .publications {
-    color: red;
+    color: #33b5e5;
 }
 
 #badges {

@@ -1,15 +1,16 @@
 <div id="header">
     <a href="/">
-        <span class="header_text">Gil's personal website</span>
+        <span class="header_text">Gil's blog</span>
     </a>    
 </div>
 
 <nav>
      <a class="mail_me" href="mailto:gil.vegliach@gmail.com">Mail me</a>
-     <a href="/files/CV.pdf">Curriculum Vitae</a>
+     <a href="/artworks.php">Artworks</a>
+     <!--a href="/files/CV.pdf">Curriculum Vitae</a-->
      <a href="/files/bsc_thesis.pdf">BSc Thesis (IT)</a>
      <a href="/files/msc_thesis.pdf">MSc Thesis (EN)</a>
-     <a class="publications" href="/publications/publications.php">Publications</a>
+     <a class="publications" href="/publications.php">Publications</a>
 </nav>
 
 <div id="badges">

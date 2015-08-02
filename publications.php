@@ -3,14 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
-    <link href='../styles/main.css' rel='stylesheet' type='text/css'>
-    <link href='publications.css' rel='stylesheet' type='text/css' >
+    <link href='styles/main.css' rel='stylesheet' type='text/css'>
+    <link href='styles/publications.css' rel='stylesheet' type='text/css' >
 
-    <title>Publications of Gil Vegliach</title>
+    <title>Gil's publications</title>
 </head>
 
 <body>
-    <?php include("../common/top.php") ?>
+    <?php include("common/top.php") ?>
 
     <div id="content">	
         <h1>Publications of Gil Vegliach</h1>
