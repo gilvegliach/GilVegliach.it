@@ -1,6 +1,6 @@
 <?php
 spl_autoload_register(function($class){
-	require 'markdown/'.preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
+    require './libs/markdown/'.preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
 });
 
 use \Michelf\Markdown;
@@ -13,13 +13,13 @@ $post = Markdown::defaultTransform($text);
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
-	
-	<link rel="stylesheet" href="/highlight/styles/github.css">
-	<script src="/highlight/highlight.pack.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-	
-    <link href='styles/main.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+    
+    <link rel='stylesheet' href='styles/main.css' type='text/css'>
+    
+    <link rel='stylesheet' href='/libs/highlight/styles/github.css' type='text/css'>
+    <script src="/libs/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     
     <title>Gil's blog</title>
     
@@ -43,7 +43,7 @@ $post = Markdown::defaultTransform($text);
 <body>
     <?php include("common/top.php") ?>   
     <div id="content">
-		<?php echo $post; ?>
+        <?php echo $post; ?>
     </div>
 </body>
 </html>

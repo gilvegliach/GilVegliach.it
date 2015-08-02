@@ -46,20 +46,20 @@
         <div id="portraits">
             <h1>Portraits</h1>
                 
-            <!--a href = "/images/portraits/veronica_portrait.jpg">
-                <img src="/images/portraits/veronica_portrait_small.jpg" alt="Veronica's portrait"/>
+            <!--a href = "/files/portraits/veronica_portrait.jpg">
+                <img src="/files/portraits/veronica_portrait_small.jpg" alt="Veronica's portrait"/>
             </a-->            
-            <a href = "/images/portraits/model_portrait.jpg">
-                <img src="/images/portraits/model_portrait.jpg" alt="Portrait of a model"/>
+            <a href = "/files/portraits/model_portrait.jpg">
+                <img src="/files/portraits/model_portrait.jpg" alt="Portrait of a model"/>
             </a>
-            <a href = "/images/portraits/riccio_portrait.jpg">
-                <img src="/images/portraits/riccio_portrait.jpg" alt="My father's portrait"/>
+            <a href = "/files/portraits/riccio_portrait.jpg">
+                <img src="/files/portraits/riccio_portrait.jpg" alt="My father's portrait"/>
             </a>
-            <a href = "/images/portraits/yespica_portrait.jpg"> 
-                <img src="/images/portraits/yespica_portrait.jpg" alt="Yespica's portrait"/>
+            <a href = "/files/portraits/yespica_portrait.jpg"> 
+                <img src="/files/portraits/yespica_portrait.jpg" alt="Yespica's portrait"/>
             </a>
-            <a href = "/images/portraits/karrie_portrait.jpg">
-                <img src="/images/portraits/karrie_portrait_small.jpg" alt="Karrie's portrait"/>
+            <a href = "/files/portraits/karrie_portrait.jpg">
+                <img src="/files/portraits/karrie_portrait_small.jpg" alt="Karrie's portrait"/>
             </a>
         </div>
     </div>
