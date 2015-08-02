@@ -12,16 +12,16 @@
 <body>
     <?php include("common/top.php") ?>
 
-    <div id="content">	
+    <div id="content">  
         <h1>Publications of Gil Vegliach</h1>
         <ol>
             <li>Andreas Bauer, Jan-Christoph K&uuml;ster, and Gil Vegliach.<br/>
                 <b>The ins and outs of first-order runtime verification.</b><br/>
                 (to appear in) <i>Formal Methods in System Design, 2015</i><br/>
-            	[<a href="pdf/fmsd15.pdf">pdf</a>]
+                [<a href="pdf/fmsd15.pdf">pdf</a>]
                 <p></p>
-            </li>	
-	
+            </li>   
+    
             <li>Andreas Bauer, Jan-Christoph K&uuml;ster, and Gil Vegliach.<br/>
                 <b>From propositional to first-order monitoring.</b><br/>
                 <i>Proc. 4th International Conference on Runtime Verification</i> (RV),<br/>

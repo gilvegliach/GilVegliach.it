@@ -5,6 +5,10 @@ body {
    margin: 0;
 }
 
+code {
+    font-family: 'Roboto Mono';
+}
+
 a:link {
     text-decoration: none;
 }
