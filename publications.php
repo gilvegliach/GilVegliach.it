@@ -19,6 +19,7 @@
                 <b>The ins and outs of first-order runtime verification.</b><br/>
                 (to appear in) <i>Formal Methods in System Design, 2015</i><br/>
                 [<a href="/files/publications/pdf/fmsd15.pdf">pdf</a>]
+				[<a href="/files/publications/bibtex/fmsd15.txt">bibtex</a>]
                 <p></p>
             </li>   
     

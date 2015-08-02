@@ -1,0 +1,7 @@
+@article{bauer:kuester:vegliach:fmsd15,
+  author = {Andreas Bauer and Jan-Christoph K\"uster and Gil Vegliach},
+  title = {The ins and outs of first-order runtime verification},
+  journal = {Formal Methods in System Design},
+  notes = {Forthcoming},
+  year = {2015}
+}
