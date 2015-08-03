@@ -4,8 +4,20 @@ spl_autoload_register(function($class){
 });
 
 use \Michelf\Markdown;
-$text = file_get_contents("./blog/Espresso - Click on last item in AdapterView.md");
-$post = Markdown::defaultTransform($text);
+
+include("secret/configuration.php");
+
+mysql_connect($db_host, $db_user, $db_pass);
+mysql_select_db($db_name);
+
+$query = "SELECT * FROM articles";
+
+$result = mysql_query($query);
+while ($row_array = mysql_fetch_array($result)) {
+	  // $id = $row_array['id'];
+	  $post = Markdown::defaultTransform($row_array['content']);
+      $content = $post . $content;
+}
 
 ?>
 <!DOCTYPE html>
@@ -43,7 +55,7 @@ $post = Markdown::defaultTransform($text);
 <body>
     <?php include("common/top.php") ?>   
     <div id="content">
-        <?php echo $post; ?>
+        <?php echo $content; ?>
     </div>
 </body>
 </html>
