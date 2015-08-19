@@ -19,7 +19,6 @@
             alt="Gil's profile at Stack Overflow" 
             title="Gil's profile at Stack Overflow" />
     </a>
-    <br/>
     <a href="http://projecteuler.net" class="badge">
         <img src="http://projecteuler.net/profile/gil.vegliach.png"
             alt="Coding challenges at Project Euler" />

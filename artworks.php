@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
-    <link href='styles/main.css' rel='stylesheet' type='text/css'>
-    
     <title>Gil's artworks</title>
+    <?php include("common/head.php") ?>
 </head>
 <body>
     <?php include("common/top.php") ?>   
