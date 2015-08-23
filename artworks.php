@@ -52,6 +52,9 @@
             <a href = "/files/portraits/riccio_portrait.jpg">
                 <img src="/files/portraits/riccio_portrait.jpg" alt="My father's portrait"/>
             </a>
+            <a href = "/files/portraits/nonna_portrait.jpg">
+                <img src="/files/portraits/nonna_portrait.jpg" alt="My grandma's portrait"/>
+            </a>
             <a href = "/files/portraits/yespica_portrait.jpg"> 
                 <img src="/files/portraits/yespica_portrait.jpg" alt="Yespica's portrait"/>
             </a>
