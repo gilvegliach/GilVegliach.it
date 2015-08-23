@@ -2,9 +2,8 @@
 <html>
 <head>
     <title>Gil's publications</title>
-    
-    <?php include("common/head.php") ?>
     <link href='styles/publications.css' rel='stylesheet' type='text/css'>
+    <?php include("common/head.php") ?>
 </head>
 
 <body>
