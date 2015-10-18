@@ -8,8 +8,6 @@
      <a class="mail_me" href="mailto:gil.vegliach@gmail.com">Mail me</a>
      <a href="/artworks.php">Artworks</a>
      <!--a href="/files/CV.pdf">Resume</a-->
-     <a href="/files/theses/bsc_thesis.pdf">BSc Thesis (IT)</a>
-     <a href="/files/theses/msc_thesis.pdf">MSc Thesis (EN)</a>
      <a class="publications" href="/publications.php">Publications</a>
 </nav>
 

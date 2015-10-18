@@ -17,7 +17,6 @@
                 (to appear in) <i>Formal Methods in System Design, 2015</i><br/>
                 [<a href="/files/publications/pdf/fmsd15.pdf">pdf</a>]
                 [<a href="/files/publications/bibtex/fmsd15.txt">bibtex</a>]
-                <p></p>
             </li>   
     
             <li>Andreas Bauer, Jan-Christoph K&uuml;ster, and Gil Vegliach.<br/>
@@ -27,7 +26,6 @@
                 (Proofs also available in <a href="http://arxiv.org/abs/1303.3645">arXiv:1303.3645</a>.)<br/>
                 [<a href="/files/publications/pdf/rv13.pdf">pdf (with proofs)</a>]
                 [<a href="/files/publications/bibtex/rv13.txt">bibtex</a>]
-                <p></p>
             </li>
 
             <li>Andreas Bauer, Jan-Christoph K&uuml;ster, and Gil Vegliach.<br/>
@@ -36,7 +34,6 @@
                     volume 7226 of <i>LNCS</i>. Springer, Apr. 2012.<br/>
                 [<a href="/files/publications/pdf/nfm12.pdf">pdf</a>]
                 [<a href="/files/publications/bibtex/nfm12.txt">bibtex</a>]
-                <p></p>
             </li>
   
             <li>Werner Nutt, Simon Razniewski, and Gil Vegliach.<br/>
@@ -45,11 +42,19 @@
                 volume 7240 of <i>LNCS</i>. Springer, Apr. 2012.<br/>
                 [<a href="/files/publications/pdf/dqis12.pdf">pdf</a>]
                 [<a href="/files/publications/bibtex/dqis12.txt">bibtex</a>]
-                <p></p>
             </li>
-
+        </ol>
+        <h2>University theses</h2>
+        <ol>
+            <li>Gil Vegliach, MSc thesis.<br/>
+                <b>Monitoring of data-centric business rules and processes.</b><br/>
+                [<a href="/files/theses/msc_thesis.pdf">pdf</a>]
+            </li>
+            <li>Gil Vegliach, BSc thesis.<br/>
+                <b>Tecnologia della dimostrazione&mdash;Sviluppo di uno scenario di verifica automatica.</b><br/>
+                [<a href="/files/theses/bsc_thesis.pdf">pdf</a>]
+            </li>
         </ol>
     </div>
-
 </body>
 </html>

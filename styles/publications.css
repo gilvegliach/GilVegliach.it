@@ -1,3 +1,8 @@
 li {
     list-style-type: disc;
+    margin-bottom: 16px;
+}
+
+ol {
+    margin-bottom: 32px;
 }
