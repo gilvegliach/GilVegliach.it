@@ -12,7 +12,7 @@
     <div id="content">  
         <div class="project">
             <a href="https://play.google.com/store/apps/details?id=com.cortado.android&hl=en-GB">
-                <img class="project-main-img" src="files/portfolio/teamplace-main.png"/>
+                <img class="project-main-img" src="files/portfolio/teamplace-main.png" alt="Teamplace app"/>
             </a>
             <h2>Teamplace and Cortado Workplace Corp.</h2>
             <ul>
@@ -33,7 +33,7 @@
         </div>
         <div class="project">
             <a href="https://play.google.com/store/apps/details?id=com.thinprint.android&hl=en-GB">
-                <img class="project-main-img" src="files/portfolio/pp-main.png"/>
+                <img class="project-main-img" src="files/portfolio/pp-main.png" alt="Personal Printing app"/>
             </a>
             <h2>Personal Printing v3.0</h2>
             <ul>
