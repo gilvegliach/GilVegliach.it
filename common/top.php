@@ -8,7 +8,8 @@
      <a class="mail_me" href="mailto:gil.vegliach@gmail.com">Mail me</a>
      <a href="/artworks.php">Artworks</a>
      <!--a href="/files/CV.pdf">Resume</a-->
-     <a class="publications" href="/publications.php">Publications</a>
+     <a href="/publications.php">Publications</a>
+     <a class="portfolio" href="/portfolio.php">Portfolio</a>
 </nav>
 
 <div id="badges">
