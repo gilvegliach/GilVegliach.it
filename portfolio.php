@@ -11,17 +11,17 @@
 
     <div id="content">  
         <div class="project">
-            <a href="https://play.google.com/store/apps/details?id=com.cortado.android&hl=en-GB">
+            <a href="https://play.google.com/store/apps/details?id=com.cortado.android&amp;hl=en-GB">
                 <img class="project-main-img" src="files/portfolio/teamplace-main.png" alt="Teamplace app"/>
             </a>
             <h2>Teamplace and Cortado Workplace Corp.</h2>
             <ul>
-                <li> Teamplace: <a href="https://play.google.com/store/apps/details?id=com.cortado.android&hl=en-GB">
+                <li> Teamplace: <a href="https://play.google.com/store/apps/details?id=com.cortado.android&amp;hl=en-GB">
                      Google Play</a>, 100K+ downloads, 4.0 stars </li> 
             
         
                 <li> Cortado Workplace Corporate:
-                      <a href="https://play.google.com/store/apps/details?id=com.cortado.android.corp&hl=en-GB">
+                      <a href="https://play.google.com/store/apps/details?id=com.cortado.android.corp&amp;hl=en-GB">
                           Google Play
                       </a>, 5K+ dowloads, 4.2 stars
                 </li>
@@ -32,12 +32,12 @@
             </ul>
         </div>
         <div class="project">
-            <a href="https://play.google.com/store/apps/details?id=com.thinprint.android&hl=en-GB">
+            <a href="https://play.google.com/store/apps/details?id=com.thinprint.android&amp;hl=en-GB">
                 <img class="project-main-img" src="files/portfolio/pp-main.png" alt="Personal Printing app"/>
             </a>
             <h2>Personal Printing v3.0</h2>
             <ul>
-                <li> <a href="https://play.google.com/store/apps/details?id=com.thinprint.android&hl=en-GB">
+                <li> <a href="https://play.google.com/store/apps/details?id=com.thinprint.android&amp;hl=en-GB">
                     Google Play</a>, 1000+ downloads, 4.1 stars </li>
                 <li> Complete development, specs to delivery </li>
                 <li> QR scanner, NFC printer association </li>            
