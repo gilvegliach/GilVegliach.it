@@ -4,7 +4,10 @@
     });
 
     use \Michelf\Markdown;
+	include("libs/rrssb/rrssb-buttons.php");
 
+	
+	
     function renderPost($id) {
         $query = "SELECT description, content FROM articles WHERE id='$id'";
         $result = mysql_query($query);
@@ -12,7 +15,10 @@
         $post_description = $row_array['description'];
         $post_content = $row_array['content'];
         $post = $post_description . "\n\n" . $post_content;
-        return Markdown::defaultTransform($post);
+		$share_description = substr($post_description, 0, strpos($post_description, PHP_EOL));
+		$share_link = "http://" . $_SERVER['HTTP_HOST'] . "/?id=$id";
+        return "<!-- desc: $share_description link: $share_link -->" .
+			renderButton($share_description, $share_link) . Markdown::defaultTransform($post);
     }
     
     function renderAllPosts() {
@@ -55,11 +61,17 @@
     <script>hljs.initHighlightingOnLoad();</script>
 
     <?php include("common/head.php") ?>
+	
+	<link rel="stylesheet" href="libs/rrssb/rrssb.css" />
 </head>
 <body>
     <?php include("common/top.php") ?>   
+	
+    
     <div id="content">
         <?php echo $content; ?>
     </div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="libs/rrssb/rrssb.min.js"></script>
 </body>
 </html>
