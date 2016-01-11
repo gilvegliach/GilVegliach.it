@@ -74,22 +74,17 @@
  
     <link href='http://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
     <link href='/libs/highlight/styles/github.css' rel='stylesheet' type='text/css'>
-
+    <link href="/libs/rrssb/rrssb.css" rel="stylesheet" />
+	
     <script src="/libs/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
     <?php include("common/head.php") ?>
-    
-    <link href="libs/rrssb/rrssb.css" rel="stylesheet" />
 </head>
 <body>
-    <?php include("common/top.php") ?>   
-    
-    
-    <div id="content">
-        <?= $content; ?>
-    </div>
+    <?php include("common/top.php") ?>
+    <div id="content"><?= $content; ?></div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="libs/rrssb/rrssb.min.js"></script>
+    <script src="/libs/rrssb/rrssb.min.js"></script>
 </body>
 </html>
