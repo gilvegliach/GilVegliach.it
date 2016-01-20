@@ -14,9 +14,10 @@
         $post_content = $row_array['content'];
         $post = $post_description . "\n\n" . $post_content;
         $share_description = extractTitle($post_description);
-        $share_link = "http://" . $_SERVER['HTTP_HOST'] . "/?id=$id";
-        return "<!-- desc: $share_description link: $share_link -->" .
-            renderButton($share_description, $share_link) . Markdown::defaultTransform($post);
+        $share_link = resolveUrl($id);
+        return renderButton($share_description, $share_link)
+            . Markdown::defaultTransform($post)
+            . renderComments($id);
     }
     
     function renderAllPosts() {
@@ -39,6 +40,32 @@
         return extractTitle($row_array['description']);
     }
     
+    function renderComments($id) {
+        $url = resolveUrl($id);
+        $comments = <<<END
+            <div id="disqus_thread"></div>
+            <script>
+            var disqus_config = function() {
+                this.page.url = "$url";
+                this.page.identifier = "$id";
+            };
+            (function() {  
+                var d = document, s = d.createElement('script');
+                s.src = '//gilvegliachit.disqus.com/embed.js';  
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+            </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+                comments powered by Disqus.</a></noscript>
+END;
+        return $comments;
+    }
+
+    function resolveUrl($id) {
+        return "http://" . $_SERVER['HTTP_HOST'] . "/?id=$id";
+    }
+
     function extractTitle($description) {
        return substr($description, 0, strpos($description, PHP_EOL));
     }
