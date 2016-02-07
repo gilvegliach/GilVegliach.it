@@ -1,4 +1,5 @@
-local modifiers = {"cmd", "alt"}
+local mods = {"cmd", "alt"}
+local allMods = {"cmd", "alt", "control"}
 
 hs.window.animationDuration = 0
 
@@ -6,7 +7,7 @@ require("hs.application")
 require("hs.window")
 
 -- move window to prev monitor
-hs.hotkey.bind(modifiers, 'a', function()
+hs.hotkey.bind(allMods, 'left', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -23,7 +24,7 @@ hs.hotkey.bind(modifiers, 'a', function()
 end)
 
 -- move window to next monitor
-hs.hotkey.bind(modifiers, 's', function()
+hs.hotkey.bind(allMods, 'right', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -40,7 +41,7 @@ hs.hotkey.bind(modifiers, 's', function()
 end)
 
 -- left half screen
-hs.hotkey.bind(modifiers, 'd', function()
+hs.hotkey.bind(mods, 'left', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -58,7 +59,7 @@ hs.hotkey.bind(modifiers, 'd', function()
 end)
 
 -- right half screen
-hs.hotkey.bind(modifiers, 'f', function()
+hs.hotkey.bind(mods, 'right', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -75,8 +76,44 @@ hs.hotkey.bind(modifiers, 'f', function()
     end
 end)
 
+-- top half screen
+hs.hotkey.bind(mods, 'up', function()
+    if hs.window.focusedWindow() then
+        local win = hs.window.focusedWindow()
+        local f = win:frame()
+        local screen = win:screen()
+        local max = screen:frame()
+
+        f.x = max.x 
+        f.y = max.y
+        f.w = max.w 
+        f.h = max.h / 2
+        win:setFrame(f)
+    else
+        hs.alert.show("No active window")
+    end
+end)
+
+-- bottom half screen
+hs.hotkey.bind(mods, 'down', function()
+    if hs.window.focusedWindow() then
+        local win = hs.window.focusedWindow()
+        local f = win:frame()
+        local screen = win:screen()
+        local max = screen:frame()
+
+        f.x = max.x 
+        f.y = max.y + (max.h / 2)
+        f.w = max.w 
+        f.h = max.h / 2
+        win:setFrame(f)
+    else
+        hs.alert.show("No active window")
+    end
+end)
+
 -- fullscreen
-hs.hotkey.bind(modifiers, 'g', function()
+hs.hotkey.bind(mods, 'f', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -94,7 +131,7 @@ hs.hotkey.bind(modifiers, 'g', function()
 end)
 
 -- top left one quarter screen
-hs.hotkey.bind(modifiers, 'e', function()
+hs.hotkey.bind(mods, 'home', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -112,7 +149,7 @@ hs.hotkey.bind(modifiers, 'e', function()
 end)
 
 -- top right one quarter screen
-hs.hotkey.bind(modifiers, 'r', function()
+hs.hotkey.bind(mods, 'pageup', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -130,7 +167,7 @@ hs.hotkey.bind(modifiers, 'r', function()
 end)
 
 -- bottom left one quarter screen
-hs.hotkey.bind(modifiers, 'v', function()
+hs.hotkey.bind(mods, 'pagedown', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -148,7 +185,7 @@ hs.hotkey.bind(modifiers, 'v', function()
 end)
 
 -- bottom right one quarter screen
-hs.hotkey.bind(modifiers, 'c', function()
+hs.hotkey.bind(mods, 'end', function()
     if hs.window.focusedWindow() then
         local win = hs.window.focusedWindow()
         local f = win:frame()
@@ -174,12 +211,12 @@ hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reload_config):start()
 hs.alert.show("Config loaded")
 
 -- show window hints
-hs.hotkey.bind(modifiers, 'i', function()
+hs.hotkey.bind(mods, 'i', function()
     hs.hints.windowHints()
 end)
 
 -- switch window focus
-hs.hotkey.bind(modifiers, 'k', function()
+hs.hotkey.bind(mods, 'k', function()
     if hs.window.focusedWindow() then
         hs.window.focusedWindow():focusWindowNorth()
     else
@@ -187,7 +224,7 @@ hs.hotkey.bind(modifiers, 'k', function()
     end
 end)
 
-hs.hotkey.bind(modifiers, 'j', function()
+hs.hotkey.bind(mods, 'j', function()
     if hs.window.focusedWindow() then
         hs.window.focusedWindow():focusWindowSouth()
     else
@@ -195,7 +232,7 @@ hs.hotkey.bind(modifiers, 'j', function()
     end
 end)
 
-hs.hotkey.bind(modifiers, 'l', function()
+hs.hotkey.bind(mods, 'l', function()
     if hs.window.focusedWindow() then
     hs.window.focusedWindow():focusWindowEast()
     else
@@ -203,7 +240,7 @@ hs.hotkey.bind(modifiers, 'l', function()
     end
 end)
 
-hs.hotkey.bind(modifiers, 'h', function()
+hs.hotkey.bind(mods, 'h', function()
     if hs.window.focusedWindow() then
         hs.window.focusedWindow():focusWindowWest()
     else
