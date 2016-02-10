@@ -99,8 +99,8 @@ END;
 <head>
     <title><?= $title ?></title>
  
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
-    <link href='/libs/highlight/styles/github.css' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" type="text/css">
+    <link href="/libs/highlight/styles/github.css" rel="stylesheet" type="text/css">
     <link href="/libs/rrssb/rrssb.css" rel="stylesheet" />
 	
     <script src="/libs/highlight/highlight.pack.js"></script>
