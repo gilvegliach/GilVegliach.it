@@ -54,7 +54,7 @@
 	      </li>
       
 	    </ul>
-		<br/><br/><br/><br/>\n
+		<br/><br/>\n
 END;
 // G+ share url does not seem to work if /'s are encoded... see also rawurlencode()
 		$description = urlencode($description);
