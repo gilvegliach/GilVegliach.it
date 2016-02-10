@@ -69,6 +69,9 @@ nav a {
     line-height:180%;
     margin: 13px;
 }
+p img {
+    width: 100%;
+}
 #portraits {
     text-align:center;
     float:right; 
