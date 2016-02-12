@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /secret/
 Disallow: /files/CV_1.pdf
+Sitemap: http://gilvegliach.it/sitemap.xml
