@@ -1,0 +1,158 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <atom:link href="http://gilvegliach.it/rss.xml" rel="self" 
+      type="application/rss+xml" />
+  <title>Gil's blog</title>
+  <link>http://gilvegliach.it</link>
+  <description>Android programming articles by Gil Vegliach
+  </description>
+  <item>
+    <title>Loading DEX code over the network</title>
+    <link>http://gilvegliach.it/?id=12</link>
+    <description>
+      <![CDATA[Today we are going to see how code can be downloaded
+      and executed over the network. This technique is useful if you
+      want to update parts of an app without rolling out a complete
+      update.  In the 
+      <a href="https://github.com/gilvegliach/LoadingDexCodeOverTheNetwork">code sample</a>, 
+      we will fetch two dex files, load them
+      dynamically, and then
+      execute their code. Along the way we will explain how class
+      loading works under the hood.]]>
+    </description>
+  </item>
+  <item>
+    <title>Three tools to stay in the zone</title>
+    <link>http://gilvegliach.it/?id=11</link>
+    <description>
+      <![CDATA[ So precious are those moments when we, software
+      developers, find ourselves in the flow; yet exiting that state
+      is way too easy. Today I will describe three tools you can use
+      to stay in the zone, to boost your productivity and accomplish
+      more.]]>
+    </description>
+  </item>
+  <item>
+    <title>Hidden activities are not destroyed under memory pressure
+    </title>
+    <link>http://gilvegliach.it/?id=10</link>
+    <description>
+      <![CDATA[Many developers after reading the official
+      documentation believe that the system will reap the hidden
+      activities of a task when running out of memory. In this post we
+      will see this is not the case and how to solve the problem.]]>
+    </description>
+  </item>
+  <item>
+    <title>Retrofit 2: Code walkthrough</title>
+    <link>http://gilvegliach.it/?id=9</link>
+    <description>
+      <![CDATA[Retrofit is an open source library by Square that turns
+      annotated java interfaces into REST clients. The library is
+      currently in its second beta and changed quite a bit from its
+      first version to better support the 
+      <a href="https://youtu.be/WvyScM_S88c">Ok stack</a>. In this 
+      post we will go through its code, explaining its main techniques
+      and inner workings. This post assumes some knowledge of the
+      library as a user of it]]>
+    </description>
+  </item>
+  <item>
+    <title>Git: Getting back an amended commit</title>
+    <link>http://gilvegliach.it/?id=8</link>
+    <description>
+      <![CDATA[Today we are going to see how to recover a commit that
+      was accidentally amended.]]>
+    </description>
+  </item>
+  <item>
+    <title>Getting annotation value of an enum constant</title>
+    <link>http://gilvegliach.it/?id=7</link>
+    <description>
+      <![CDATA[In this post we will see how to extract the annotation
+      value, (i.e.  <code>"choc"</code> in
+      <code>@SerializedName("choc")</code>) given an annotated enum
+      constant. This technique is useful when we generate strings for
+      unit tests in the context of Json deserialization. Furthermore,
+      we will discuss some features of enums and annotations, and
+      their connections with the reflection API.]]> </description>
+  </item>
+  <item>
+    <title>Git: Committed on master instead of forking a branch</title>
+    <link>http://gilvegliach.it/?id=6</link>
+    <description>
+      <![CDATA[Sometimes we start working on a feature but mistakenly
+      commit on the master branch. We realize the mistake too late and
+      would like to "move" this commit or commits to a new feature
+      branch. In this post I explain the fastest way to do this, if
+      the commits have not been pushed to upstream yet.]]>
+    </description>
+  </item>
+  <item>
+    <title>ADB over wifi</title>
+    <link>http://gilvegliach.it/?id=5</link>
+    <description>
+      <![CDATA[The adb command is well known to Android developers, it
+      provides utility commands such as shelling into a device,
+      manipulating basic services like the activity manager, and
+      pushing or pulling files from a device. What is not widely known
+      is that you don't actually need an usb cable to talk to your
+      device.]]>
+    </description>
+  </item>
+  <item>
+    <title>The retained fragment trick</title>
+    <link>http://gilvegliach.it/?id=4</link>
+    <description>
+      <![CDATA[The first tough problem a new Android developer faces
+      is how to manage work in the background. Spawning a new Thread
+      is easy, but once UI objects need to be notified with the
+      result, the situation becomes tricky: the UI objects might have
+      been replaced by the system because of a configuration change.
+      In this post we explore how to bind and rebind to the new UI
+      objects with a retained Fragment.]]>
+    </description>
+  </item>
+  <item>
+    <title>A library that draws transparent text in a TextView</title>
+    <link>http://gilvegliach.it/?id=3</link>
+    <description>
+      <![CDATA[Today we will make TextView render its text as
+      transparent so that we can see underneath the TextView, for
+      example the activity background. This technique uses the
+      Porter's and Duff's transfer modes. A ready-to-use library along
+      with its source code can be found
+<a href="https://github.com/gilvegliach/TransparentTextTextView">here</a>.]]>
+    </description>
+  </item>
+  <item>
+    <title>The basics of bit manipulation</title>
+    <link>http://gilvegliach.it/?id=2</link>
+    <description>
+      <![CDATA[Talking with fellow developers, I realized that many
+      feel confused when it comes down to bit manipulation. It is
+      indeed something not used on a day-to-day basis, but
+      nevertheless the Android framework relies on it heavily in for
+      memory optimizations: when a boolean can do, a bit can do too.
+      Examples are View and Window flags. This post sets out to
+      demystify the basics of bit manipulation: afterwards it will
+      feel no more difficult than using arrays.]]>
+    </description>
+  </item>
+  <item>
+    <title>Espresso: Click on last item in AdapterView</title>
+    <link>http://gilvegliach.it/?id=1</link>
+    <description>
+      <![CDATA[In Espresso is quite easy to tap on the first element
+      of an <code>AdapterView</code>, such as a <code>ListView</code>.
+      This can be easily done calling
+      <code>DataIteraction.atPosition(0)</code>.  Clicking on the last
+      item though, is much more complicated. The last position is
+      unknown to Espresso and extracting it stringing together a
+      <code>findViewById()</code> and
+      <code>AdapterView.getCount()</code> seems to defeat the purpose
+      of using Espresso altogether.]]>
+    </description>
+  </item>
+</channel>
+</rss>
