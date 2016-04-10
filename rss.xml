@@ -7,6 +7,17 @@
   <description>Android programming articles by Gil Vegliach
   </description>
   <item>
+    <title>Google Code Jam 2016 Qualification Round: Passed</title>
+    <link>http://gilvegliach.it/?id=13</link>
+    <description>
+        <![CDATA[Google Code Jam](https://code.google.com/codejam) 
+        is an algorithmic competition held each year by Google. The
+        partecipation does not cost anything so I decided to test
+        myself and have some practice. In this post I will talk about
+        my experience and my results.]]>
+    </description>
+  </item>
+  <item>
     <title>Loading DEX code over the network</title>
     <link>http://gilvegliach.it/?id=12</link>
     <description>
