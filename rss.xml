@@ -7,10 +7,18 @@
   <description>Android programming articles by Gil Vegliach
   </description>
   <item>
+    <title>TopTal: How I passed the interview</title>
+    <link>http://gilvegliach.it/?id=14</link>
+    <description>
+        <![CDATA[ In this blog post I will share my experience on the
+        TopTal interview and how you can prepare to pass it.]]>
+    </description>
+  </item>
+  <item>
     <title>Google Code Jam 2016 Qualification Round: Passed</title>
     <link>http://gilvegliach.it/?id=13</link>
     <description>
-        <![CDATA[Google Code Jam](https://code.google.com/codejam) 
+        <![CDATA[ [Google Code Jam](https://code.google.com/codejam) 
         is an algorithmic competition held each year by Google. The
         partecipation does not cost anything so I decided to test
         myself and have some practice. In this post I will talk about
@@ -21,7 +29,7 @@
     <title>Loading DEX code over the network</title>
     <link>http://gilvegliach.it/?id=12</link>
     <description>
-      <![CDATA[Today we are going to see how code can be downloaded
+      <![CDATA[ Today we are going to see how code can be downloaded
       and executed over the network. This technique is useful if you
       want to update parts of an app without rolling out a complete
       update.  In the 
