@@ -7,6 +7,16 @@
   <description>Android programming articles by Gil Vegliach
   </description>
   <item>
+    <title>Pro Tip: Android Studio shortcuts for unit tests</title>
+    <link>http://gilvegliach.it/?id=15</link>
+    <description>
+        <![CDATA[ Testing is an important part of the development 
+        process. Today we will leverage Android Studio shortcuts to
+        create and run unit tests faster and without using a mouse.
+        ]]>
+    </description>
+  </item>
+  <item>
     <title>TopTal: How I passed the interview</title>
     <link>http://gilvegliach.it/?id=14</link>
     <description>
@@ -18,7 +28,8 @@
     <title>Google Code Jam 2016 Qualification Round: Passed</title>
     <link>http://gilvegliach.it/?id=13</link>
     <description>
-        <![CDATA[ [Google Code Jam](https://code.google.com/codejam) 
+        <![CDATA[ 
+        <a href="https://code.google.com/codejam">Google Code Jam</a>
         is an algorithmic competition held each year by Google. The
         partecipation does not cost anything so I decided to test
         myself and have some practice. In this post I will talk about
