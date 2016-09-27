@@ -27,7 +27,8 @@
         while ($row_array = mysql_fetch_array($result)) {
               $id = $row_array['id'];
               $post = Markdown::defaultTransform($row_array['description']);
-              $post = $post . "<a href=\"/?id=" . $id . "\"> Read more </a>";
+              $post = "<div class=\"post_description\">" .
+                  $post . "<a href=\"/?id=" . $id . "\"> Read more </a></div>";
               $all_posts = $post . $all_posts;
         }
         return $all_posts;  

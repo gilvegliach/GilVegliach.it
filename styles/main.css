@@ -36,7 +36,7 @@ a:hover {
     text-decoration: none;
 }
 nav {
-    height:48px;
+    height: 48px;
     line-height: 48px;
     background-color: #4c4c4c;
     border-top: solid white 1px;
@@ -52,6 +52,9 @@ nav a {
 }
 .portfolio {
     color: #33b5e5;
+}
+.post_description {
+    margin-bottom: 60px;
 }
 #badges {
     float: right;
