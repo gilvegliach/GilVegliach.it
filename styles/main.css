@@ -1,18 +1,29 @@
 /* Take defaults from here: http://www.w3schools.com/tags/tag_hn.asp */
 h1 {
+    color: rgba(0, 0, 0, .87);
     font-size: 1.71em;
+    line-height: 1.71em;
+    font-weight: 400;
 }
 h2 {
+    color: rgba(0, 0, 0, .87);
     font-size: 1.43em;
+    line-height: 1.43em;
+    font-weight: 400;
 }
 h3 {
+    color: rgba(0, 0, 0, .87);
     font-size: 1.14em;
+    line-height: 1.14em;
+    font-weight: 400;
 }
 body {
    text-align: center;
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
+   line-height: 1.71em;
    margin: 0;
+   color: rgba(0, 0, 0, .68);
 }
 code {
     font-family: 'Roboto Mono';
