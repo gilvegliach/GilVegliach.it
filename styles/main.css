@@ -18,12 +18,12 @@ h3 {
     font-weight: 400;
 }
 body {
-   color: rgba(0, 0, 0, .68);
-   line-height: 1.71em;
-   text-align: center;
-   font-weight: 400;
-   font-family: 'Roboto', sans-serif;
-   margin: 0;
+    color: rgba(0, 0, 0, .68);
+    line-height: 1.71em;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 code {
     font-family: 'Roboto Mono';
@@ -34,6 +34,9 @@ pre code {
 }
 body a {
     color: #2d9fc9;
+}
+.post_link {
+    text-transform: uppercase;
 }
 a:link {
     text-decoration: none;
