@@ -13,6 +13,11 @@
         $post_description = $row_array['description'];
         $post_content = $row_array['content'];
         $post = $post_description . "\n\n" . $post_content;
+
+        // Don't render anything is post is not available
+        if (empty(trim($post))) {
+            return "";
+        }
         $share_description = extractTitle($post_description);
         $share_link = resolveUrl($id);
         return renderButton($share_description, $share_link)
@@ -76,14 +81,15 @@ END;
         return "Gil's blog";
     }
     
-     
+
     include("secret/configuration.php");
+
     mysql_connect($db_host, $db_user, $db_pass);
     mysql_select_db($db_name);
 
-    if (isset($_GET['id'])) {
-        // The cast prevent SQL injections
-        $id = (int)$_GET['id'];
+    // http://stackoverflow.com/questions/12194205/how-to-check-whether-a-variable-in-get-array-is-an-integer
+    $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+    if (!is_null($id)) {
         $content = renderPost($id);
         if (!empty(trim($content))) {
             $title = renderPostTitle($id);
@@ -104,7 +110,7 @@ END;
     <link href="http://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" type="text/css">
     <link href="/libs/highlight/styles/github.css" rel="stylesheet" type="text/css">
     <link href="/libs/rrssb/rrssb.css" rel="stylesheet" />
-	
+    
     <script src="/libs/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
