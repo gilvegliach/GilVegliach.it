@@ -4,6 +4,7 @@
 <url><loc>http://gilvegliach.it/artworks.php</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>http://gilvegliach.it/publications.php</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
 <url><loc>http://gilvegliach.it/portfolio.php</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>http://gilvegliach.it/?id=16</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
 <url><loc>http://gilvegliach.it/?id=15</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
 <url><loc>http://gilvegliach.it/?id=14</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
 <url><loc>http://gilvegliach.it/?id=13</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
