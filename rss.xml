@@ -4,8 +4,21 @@
       type="application/rss+xml" />
   <title>Gil's blog</title>
   <link>http://gilvegliach.it</link>
-  <description>Android programming articles by Gil Vegliach
+  <description>Programming articles by Gil Vegliach
   </description>
+  <item>
+    <title>How I passed the interview at Booking.com</title>
+    <link>http://gilvegliach.it/?id=16</link>
+    <description>
+        <![CDATA[ Recently I accepted an offer as Software Development
+            Engineer from Amazon UK. In the process I also received an
+            offer from Booking.com and interviewed with Google. In
+            this brief series, I will tell about my experiences and
+            the best way to prepare for software developer interviews.
+            The first post is about Booking.com.
+        ]]>
+    </description>
+  </item>
   <item>
     <title>Pro Tip: Android Studio shortcuts for unit tests</title>
     <link>http://gilvegliach.it/?id=15</link>
