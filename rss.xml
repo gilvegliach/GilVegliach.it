@@ -7,7 +7,22 @@
   <description>Programming articles by Gil Vegliach
   </description>
   <item>
-    <title>How I passed the interview at Booking.com</title>
+    <title>Google: My interview experience</title>
+    <link>http://gilvegliach.it/?id=17</link>
+    <description>
+        <![CDATA[ 
+						This post is the second in my mini-series about software 
+            engineering interviews. The 
+            <a href="http://gilvegliach.it/?id=16">first post</a> was
+            about my experience at	Booking.com. This post will be about
+            my experience with Google. A third post will follow about my
+            experience with Amazon UK, the place that I'm going to join
+            soon.
+        ]]>
+    </description>
+  </item>
+  <item>
+    <title>Booking.com: How I passed the interview</title>
     <link>http://gilvegliach.it/?id=16</link>
     <description>
         <![CDATA[ Recently I accepted an offer as Software Development
