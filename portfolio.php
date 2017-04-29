@@ -8,6 +8,7 @@
 
 <body>
     <?php include("common/top.php") ?>
+    <?php include("common/badges.php") ?>
 
     <div id="content">  
         <div class="project">
