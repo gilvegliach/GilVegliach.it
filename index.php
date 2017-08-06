@@ -74,15 +74,17 @@ END;
     }
 
     function extractTitle($description) {
-       return substr($description, 0, strpos($description, PHP_EOL));
+        return substr($description, 0, strpos($description, PHP_EOL));
     }
    
     function renderAllPostTitle(){
         return "Gil's blog";
     }
-    
 
     include("secret/configuration.php");
+
+    $redirects = array(
+        1 => 'http://clevercoder.net/2017/08/06/espresso-click-on-last-item-in-adapterview/');
 
     mysql_connect($db_host, $db_user, $db_pass);
     mysql_select_db($db_name);
@@ -90,6 +92,10 @@ END;
     // http://stackoverflow.com/questions/12194205/how-to-check-whether-a-variable-in-get-array-is-an-integer
     $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
     if (!is_null($id)) {
+        if (array_key_exists($id, $redirects)) {
+            header('Location: ' . $redirects[$id], true, 301); // Moved Permanently
+            die();
+        }
         $content = renderPost($id);
         if (!empty(trim($content))) {
             $title = renderPostTitle($id);
