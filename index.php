@@ -84,19 +84,19 @@ END;
     include("secret/configuration.php");
 
     $redirects = array(
-      1  => 'http://clevercoder.net/2017/02/19/espresso-click-on-last-item-in-adapterview/',
-      2  => 'http://clevercoder.net/2016/10/14/basics-bit-manipulation/',
-      3  => 'http://clevercoder.net/2017/08/01/library-draws-transparent-text-textview/',
-      4  => 'http://clevercoder.net/2017/03/07/retained-fragment-trick/',
-      5  => 'http://clevercoder.net/2017/01/03/adb-over-wifi/',
-      6  => 'http://clevercoder.net/2017/04/11/git-committed-master-instead-forking-branch/',
-      7  => 'http://clevercoder.net/2016/12/12/getting-annotation-value-enum-constant/',
-      8  => 'http://clevercoder.net/2017/03/29/git-getting-back-amended-commit/',
-      9  => 'http://clevercoder.net/2017/06/15/retrofit-2-code-walkthrough/',
-      10 => 'http://clevercoder.net/2017/05/23/hidden-activities-not-destroyed-memory-pressure/',
-      11 => 'http://clevercoder.net/2016/11/18/three-tools-stay-zone/',
-      12 => 'http://clevercoder.net/2017/07/06/loading-dex-code-network/',
-      13 => 'http://clevercoder.net/2016/04/20/google-code-jam-2016-qualification-round-passed/'
+      1  => 'https://clevercoder.net/2017/02/19/espresso-click-on-last-item-in-adapterview/',
+      2  => 'https://clevercoder.net/2016/10/14/basics-bit-manipulation/',
+      3  => 'https://clevercoder.net/2017/08/01/library-draws-transparent-text-textview/',
+      4  => 'https://clevercoder.net/2017/03/07/retained-fragment-trick/',
+      5  => 'https://clevercoder.net/2017/01/03/adb-over-wifi/',
+      6  => 'https://clevercoder.net/2017/04/11/git-committed-master-instead-forking-branch/',
+      7  => 'https://clevercoder.net/2016/12/12/getting-annotation-value-enum-constant/',
+      8  => 'https://clevercoder.net/2017/03/29/git-getting-back-amended-commit/',
+      9  => 'https://clevercoder.net/2017/06/15/retrofit-2-code-walkthrough/',
+      10 => 'https://clevercoder.net/2017/05/23/hidden-activities-not-destroyed-memory-pressure/',
+      11 => 'https://clevercoder.net/2016/11/18/three-tools-stay-zone/',
+      12 => 'https://clevercoder.net/2017/07/06/loading-dex-code-network/',
+      13 => 'https://clevercoder.net/2016/04/20/google-code-jam-2016-qualification-round-passed/'
     );
 
     mysql_connect($db_host, $db_user, $db_pass);
