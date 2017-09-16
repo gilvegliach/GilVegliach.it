@@ -96,7 +96,8 @@ END;
       10 => 'https://clevercoder.net/2017/05/23/hidden-activities-not-destroyed-memory-pressure/',
       11 => 'https://clevercoder.net/2016/11/18/three-tools-stay-zone/',
       12 => 'https://clevercoder.net/2017/07/06/loading-dex-code-network/',
-      13 => 'https://clevercoder.net/2016/04/20/google-code-jam-2016-qualification-round-passed/'
+      13 => 'https://clevercoder.net/2016/04/20/google-code-jam-2016-qualification-round-passed/',
+      15 => 'https://clevercoder.net/2017/09/01/pro-tip-android-studio-shortcuts-unit-tests/'
     );
 
     mysql_connect($db_host, $db_user, $db_pass);
