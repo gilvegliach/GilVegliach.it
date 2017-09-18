@@ -97,6 +97,7 @@ END;
       11 => 'https://clevercoder.net/2016/11/18/three-tools-stay-zone/',
       12 => 'https://clevercoder.net/2017/07/06/loading-dex-code-network/',
       13 => 'https://clevercoder.net/2016/04/20/google-code-jam-2016-qualification-round-passed/',
+      14 => 'https://clevercoder.net/2017/09/04/toptal-passed-interview/',
       15 => 'https://clevercoder.net/2017/09/01/pro-tip-android-studio-shortcuts-unit-tests/'
     );
 
