@@ -14,7 +14,7 @@
         $post_content = $row_array['content'];
         $post = $post_description . "\n\n" . $post_content;
 
-        // Don't render anything is post is not available
+        // Don't render anything if post is not available
         if (empty(trim($post))) {
             return "";
         }
@@ -99,7 +99,8 @@ END;
       13 => 'https://clevercoder.net/2016/04/20/google-code-jam-2016-qualification-round-passed/',
       14 => 'https://clevercoder.net/2017/09/04/toptal-passed-interview/',
       15 => 'https://clevercoder.net/2017/09/01/pro-tip-android-studio-shortcuts-unit-tests/',
-      16 => 'https://clevercoder.net/2017/09/08/booking-com-passed-the-interview/'
+      16 => 'https://clevercoder.net/2017/09/08/booking-com-passed-the-interview/',
+      18 => 'https://clevercoder.net/2017/09/13/amazon-uk-passed-interview/'
     );
 
     mysql_connect($db_host, $db_user, $db_pass);
