@@ -81,7 +81,6 @@ END;
         return "Gil's blog";
     }
 
-    include("secret/configuration.php");
 
     $redirects = array(
       1  => 'https://clevercoder.net/2017/02/19/espresso-click-on-last-item-in-adapterview/',
@@ -100,19 +99,29 @@ END;
       14 => 'https://clevercoder.net/2017/09/04/toptal-passed-interview/',
       15 => 'https://clevercoder.net/2017/09/01/pro-tip-android-studio-shortcuts-unit-tests/',
       16 => 'https://clevercoder.net/2017/09/08/booking-com-passed-the-interview/',
+      17 => 'https://clevercoder.net/2017/09/17/google-interview-experience/',
       18 => 'https://clevercoder.net/2017/09/13/amazon-uk-passed-interview/'
     );
 
+    // http://stackoverflow.com/questions/12194205/how-to-check-whether-a-variable-in-get-array-is-an-integer
+    $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+
+    //////////////////////////////////////////////////////////////////
+    // Always redirect
+    if (array_key_exists($id, $redirects)) {
+        $redirect = $redirects[$id];
+    } else {
+        $redirect = 'https://clevercoder.net';
+    }
+    header('Location: ' . $redirect, true, 301); // Moved Permanently
+    die();
+    /////////////////////////////////////////////////////////////////
+
+    include("secret/configuration.php");
     mysql_connect($db_host, $db_user, $db_pass);
     mysql_select_db($db_name);
 
-    // http://stackoverflow.com/questions/12194205/how-to-check-whether-a-variable-in-get-array-is-an-integer
-    $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
     if (!is_null($id)) {
-        if (array_key_exists($id, $redirects)) {
-            header('Location: ' . $redirects[$id], true, 301); // Moved Permanently
-            die();
-        }
         $content = renderPost($id);
         if (!empty(trim($content))) {
             $title = renderPostTitle($id);
